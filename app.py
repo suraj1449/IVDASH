@@ -10,8 +10,8 @@ from scipy.stats import norm
 import json
 
 # ================= CONFIG (from env vars or fallback) ================= #
-API_KEY      = os.environ.get("API_KEY", "oxc7tfxwa3n5zvqq")
-ACCESS_TOKEN = os.environ.get("ACCESS_TOKEN", "nPCK15pKXoHi2wAU6bkKedur1oykpeGd")
+API_KEY      = os.environ.get("API_KEY", "")
+ACCESS_TOKEN = os.environ.get("ACCESS_TOKEN", "")
 
 INTERVAL     = int(os.environ.get("INTERVAL", "60"))
 STRIKE_GAP   = int(os.environ.get("STRIKE_GAP", "50"))
