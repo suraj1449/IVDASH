@@ -1,0 +1,6 @@
+flask
+kiteconnect
+pandas
+numpy
+scipy
+gunicorn
